@@ -6,7 +6,7 @@ class Student
     @name = name
     @grade = grade
   end
-end
+
 
 def.self.create_table
   sql = <<-SQL
@@ -17,4 +17,7 @@ def.self.create_table
     )
   SQL
   DB[:conn].execute(sql)
+end
+
+
 end
